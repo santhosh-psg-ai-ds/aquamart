@@ -13,8 +13,8 @@ export default function Home() {
       <section className="relative w-full h-[50vh] rounded-lg overflow-hidden mb-12">
         <Image
           src="https://placehold.co/1200x600"
-          alt="Hero background with various colorful fish and corals"
-          data-ai-hint="underwater coral"
+          alt="Hero background with various colorful fish and corals in a vibrant aquarium"
+          data-ai-hint="vibrant aquarium"
           fill
           className="object-cover"
         />
