@@ -31,7 +31,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         </Link>
       </CardContent>
       <CardFooter className="p-4 flex justify-between items-center">
-        <p className="text-lg font-bold text-primary">${product.price.toFixed(2)}</p>
+        <p className="text-lg font-bold text-primary">₹{product.price.toFixed(2)}</p>
         <Button asChild size="sm">
             <Link href={`/products/${product.id}`}>View</Link>
         </Button>
