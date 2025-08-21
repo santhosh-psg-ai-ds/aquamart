@@ -32,12 +32,12 @@ export default function SignupPage() {
           <Input id="name" placeholder="John Doe" />
         </div>
         <div className="grid gap-2">
-          <Label htmlFor="email">Email</Label>
-          <Input id="email" type="email" placeholder="m@example.com" />
+          <Label htmlFor="mobile">Mobile Number</Label>
+          <Input id="mobile" type="tel" placeholder="9876543210" />
         </div>
         <div className="grid gap-2">
-          <Label htmlFor="password">Password</Label>
-          <Input id="password" type="password" />
+          <Label htmlFor="city">City</Label>
+          <Input id="city" placeholder="Mumbai" />
         </div>
       </CardContent>
       <CardFooter className="flex flex-col gap-4">
